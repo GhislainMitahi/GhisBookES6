@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# AwesomeBooks
+# AwesomeBooksES6
 
 This project is about to give us a handle as a student on how to make interactive a web site.
 
