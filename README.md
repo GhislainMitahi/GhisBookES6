@@ -25,7 +25,7 @@ If you want to use this project locally on your device you will need the followi
 
  ```
 
- git clone git@github.com:HabibPayenda/awesomeBooks.git
+ git clone git@github.com:GhislainMitahi/GhisBookES6.git
  
  ```
   in your terminal
