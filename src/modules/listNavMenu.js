@@ -7,7 +7,7 @@ const main = document.getElementById('main');
 // eslint-disable-next-line no-unused-vars
 let menu = '';
 
-let listbooks = booksLister();
+const listbooks = booksLister();
 
 export default () => {
   menu = 'list';
