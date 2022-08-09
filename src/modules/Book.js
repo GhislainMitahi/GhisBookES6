@@ -1,6 +1,6 @@
 import listbooks from './listbooks.js';
 
-class Book {
+export default class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
@@ -25,6 +25,4 @@ class Book {
   }
 }
 
-const newBook = new Book();
-
-export default newBook;
+export const newBook = new Book();

@@ -1,9 +1,20 @@
+import { newBook } from './Book.js';
 import listbooks from './listbooks.js';
-import newBook from './Book.js';
 
-const listNavMenu = () => {
-  const list = document.getElementById('list');
-  const main = document.getElementById('main');
+const list = document.getElementById('list');
+const main = document.getElementById('main');
+
+// eslint-disable-next-line no-unused-vars
+let menu = '';
+
+export default () => {
+  menu = 'list';
+  if (listbooks.length <= 0) {
+    main.innerHTML = '';
+    const noBooks = document.createElement('h1');
+    noBooks.innerText = 'Please add some books!';
+    main.append(noBooks);
+  }
   const allBooks = document.createElement('h1');
   allBooks.innerText = 'All awesome books';
   listbooks.forEach((book) => {
@@ -41,5 +52,3 @@ const listNavMenu = () => {
     return main;
   });
 };
-
-export default listNavMenu;

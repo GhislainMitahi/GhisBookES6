@@ -1,5 +1,6 @@
-const contactNavMenu = () => {
-  const main = document.getElementById('main');
+const main = document.getElementById('main');
+
+export default () => {
   const contactContainer = document.createElement('div');
   contactContainer.classList.add('contactDiv');
   const contactText = document.createElement('h2');
@@ -23,5 +24,3 @@ const contactNavMenu = () => {
   main.append(contactContainer);
   return main;
 };
-
-export default contactNavMenu;

@@ -1,7 +1,8 @@
-import newBook from './Book.js';
+import { newBook } from './Book.js';
 
-const addMenu = () => {
-  const main = document.getElementById('main');
+const main = document.getElementById('main');
+
+export default () => {
   const addContainer = document.createElement('div');
   addContainer.classList.add('addNew');
   const addText = document.createElement('h2');
@@ -41,5 +42,3 @@ const addMenu = () => {
   main.appendChild(addContainer);
   return main;
 };
-
-export default addMenu;
