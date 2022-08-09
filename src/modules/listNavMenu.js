@@ -1,11 +1,13 @@
 import { newBook } from './Book.js';
-import listbooks from './listbooks.js';
+import booksLister from './listbooks.js';
 
 const list = document.getElementById('list');
 const main = document.getElementById('main');
 
 // eslint-disable-next-line no-unused-vars
 let menu = '';
+
+let listbooks = booksLister();
 
 export default () => {
   menu = 'list';
