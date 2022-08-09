@@ -14,11 +14,11 @@ export default () => {
   const contactUl = document.createElement('ul');
   contactUl.classList.add('contactList');
   const ourEmail = document.createElement('li');
-  ourEmail.innerText = 'Our e-mail: info@payenda.af';
+  ourEmail.innerText = 'Our e-mail: ghislainmitahi@gmail.com';
   const ourPhone = document.createElement('li');
-  ourPhone.innerText = 'Our phonnnne number: +93(0)749665340';
+  ourPhone.innerText = 'Our phonnnne number: +243991745852';
   const ourAdd = document.createElement('li');
-  ourAdd.innerText = 'Kabul, Afghanistan';
+  ourAdd.innerText = 'DBC, Goma';
   contactUl.append(ourEmail, ourPhone, ourAdd);
   contactContainer.append(contactText, contactP1, contactP2, contactUl);
   main.append(contactContainer);
