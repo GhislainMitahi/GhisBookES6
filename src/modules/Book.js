@@ -1,4 +1,6 @@
-import listbooks from './listbooks.js';
+import booksLister from './listbooks.js';
+
+let listbooks = booksLister();
 
 export default class Book {
   constructor(title, author) {

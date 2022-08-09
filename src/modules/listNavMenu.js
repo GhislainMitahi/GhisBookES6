@@ -30,7 +30,7 @@ export default () => {
     bookAuthor.innerText = book.author;
     const removeBtn = document.createElement('button');
     removeBtn.classList.add('remove');
-    removeBtn.innerText = listbooks.indexOf(book);
+    removeBtn.innerText = 'Remove';
     const id = listbooks.indexOf(book);
     if (id % 2 === 0) {
       bookCard.style.backgroundColor = '#a4f560';
